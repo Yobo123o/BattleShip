@@ -36,11 +36,11 @@ public class GameController {
         help.addActionListener(e -> {
             JOptionPane.showMessageDialog(null,
                     """
-                    🔹 Click any cell to fire at hidden ships.
-                    🔸 A 💥 icon means you hit a ship.
-                    🔸 A 💧 icon means you missed.
+                    Click any cell to fire at hidden ships!
+                    A 💥 icon means you hit a ship!
+                    A 💧 icon means you missed!
     
-                    🛳 Ship Types (5 total):
+                    Ship Types (5 total):
                     • Carrier (5 cells)
                     • Battleship (4 cells)
                     • Cruiser (3 cells)
